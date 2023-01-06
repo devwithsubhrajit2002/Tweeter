@@ -1,6 +1,8 @@
 extends layouts/login-layout.pug
 
 block content
+        .logoContainer
+            img.logoimg(src="/images/logo.png", alt="")
         .loginContainer
             h1 Register
             form#registerform(method="post" onsubmit="event.preventDefault(); validateForm();")
@@ -17,6 +19,8 @@ block content
 
                     
             a(href="/login") Already have an account? Login here.
+        .authorContainer
+            h5 Made with ❤ by Subhrajit Dhar            
         script.
             var passwordfield = document.getElementById("password");
             var passwordConfirmfield = document.getElementById("passwordConf");
