@@ -5,7 +5,9 @@ body{
 .wrapper{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin-top: 20px;
+    align-items: center;
 }
 
 .loginContainer{
@@ -18,6 +20,26 @@ body{
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+.logoimg {
+    width: 10%;
+    min-width: 50px;
+    max-width: 800px;
+    border-radius: 50%;
+}
+
+.authorContainer {
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
 }
 
 form{
