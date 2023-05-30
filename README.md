@@ -1,5 +1,5 @@
 # Tweeter
-This is Node.Js project with the implementation of web framework Express API Routes.
+This is a Node.Js project made with the implementation of web framework Express API Routes.
 ## Getting Started
 To run the application
 ```bash
